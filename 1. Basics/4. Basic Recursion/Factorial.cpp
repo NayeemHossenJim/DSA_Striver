@@ -1,15 +1,15 @@
 #include <iostream>
 using namespace std;
 
-int Sum(int n)
+int Fac(int n)
 {
-    if (n==0) return 0;
-    return n+Sum(n-1);
+    if (n==1) return 0;
+    return n*Fac(n-1);
 }
 
 int main()
 {
-    int k = Sum(4);
+    int k = Fac(4);
     cout << k;
     return 0;
 }
