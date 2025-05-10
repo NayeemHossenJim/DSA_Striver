@@ -1,4 +1,0 @@
-bool isPalindrome(string s)
-// {
-    
-// }
