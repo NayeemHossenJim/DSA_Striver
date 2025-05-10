@@ -1,16 +1,16 @@
 #include <iostream>
 using namespace std;
 
-bool PallinDrome(int i, string &s)
+bool isPalindrome(int i, string& s)
 {
-    if (i >= s.size() / 2) return true;
-    if (s[i] != s[s.size() - i - 1]) return false;
-    else return PallinDrome(i+1,s) ;
+    if(i>=s.length()/2) return true;
+    if(s[i]!=s[s.length()-i-1]) return false;
+    return isPalindrome(i+1,s);
 }
 
-int main()
-{
-    string x = "madam";
-    cout << PallinDrome(0,x) ;
-    return 0;
+int main() {
+	string s = "madam";
+	cout<<isPalindrome(0,s);
+	cout<<endl;
+	return 0;
 }
