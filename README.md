@@ -1,4 +1,4 @@
-# DSA_Striver
+# DSA
 
 This repository contains solutions and implementations of various Data Structures and Algorithms (DSA) concepts, following the Striver's DSA roadmap. It is organized into different sections to help you build a strong foundation in DSA.
 
